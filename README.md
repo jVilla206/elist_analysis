@@ -9,6 +9,8 @@ Sales trends analysis for e-commerce company
 
 # Deep-Dive Insights
 Body text
+**What were the overall trends?**
+
 
 ## Sales Trends
 Body text
