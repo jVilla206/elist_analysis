@@ -2,8 +2,11 @@
 Sales trends analysis for e-commerce company
 
 # Overview
+Created in 2018, Elist is an e-commerce company that provides popular electronic products to global customers. In this project, I analyzed a sample dataset investigating trends in sales, average order value, products, and operational effectiveness to provide insights on Elist's performance across many different areas of the business. I also analyzed the performance of Elist's loyalty program. I provide recommendations based on these insights on where Elist should focus efforts to improve growth.
 
-## ERD
+I used a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams.
+
+## Entity Relationship Diagram (ERD)
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/a609ddf3-c5ce-4b54-9002-5877712276c5">
 
 
