@@ -19,11 +19,15 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 <img width="750" alt="image" src=image.png>
 
 ## Sales Trends
-Dive deeper into what I actually found for this dimension.
+*Excel + SQL*
 
 ## Product Trends
+*Excel + SQL*
 
 ## Loyalty Program
-
+*Excel + SQL*
 
 ## Refund Rates
+*SQL*
+
+# Recommendations
