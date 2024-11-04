@@ -22,6 +22,8 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 
 <img width="750" alt="image" src=image.png>
 
+![image](https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f)
+
 ## Sales Trends
 *Excel + SQL*
 
