@@ -6,6 +6,7 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 ## Overview of the data
 ### Entity Relationship Diagram (ERD)
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/a609ddf3-c5ce-4b54-9002-5877712276c5">
+
 ### Dataset
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
 
