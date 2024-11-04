@@ -4,51 +4,10 @@ Created in 2018, Elist is an e-commerce company that provides customers with pop
 I used a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams.
 
 ## Overview of the data
-## Entity Relationship Diagram (ERD)
+### Entity Relationship Diagram (ERD)
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/a609ddf3-c5ce-4b54-9002-5877712276c5">
-## 
-
-+-------------------------------------------------------------------+
-| ORDERS                                                            |
-+-------------------------------------------------------------------+
-| customer_id                                           | STRING    |
-| id                                                    | STRING    | 
-| purchase_ts                                           | DATE      | 
-| product_id                                            | STRING    |
-| product_name                                          | STRING    |
-| currency                                              | STRING    |
-| local_price                                           | FLOAT64   |
-| usd_price                                             | FLOAT64   |
-| purchase_platform                                     | STRING    |
-+--------------------------------------------+----------------------+
-
-+-------------------------------------------------------------------+
-| GEO_LOOKUP                                                        |
-+-------------------------------------------------------------------+
-| country                                               | STRING    |
-| region                                                | STRING    | 
-+--------------------------------------------+----------------------+
-
-+-------------------------------------------------------------------+
-| CUSTOMERS                                                         |
-+-------------------------------------------------------------------+
-| id                                                    | STRING    |
-| marketing_channel                                     | STRING    |
-| account_creation_platform                             | STRING    |
-| country_code                                          | STRING    | 
-| loyalty_program                                       | INT64     | 
-| created_on                                            | DATE      |
-+--------------------------------------------+----------------------+
-
-+-------------------------------------------------------------------+
-| ORDER_STATUS                                                      |              
-+-------------------------------------------------------------------+
-| order_id                                              | STRING    |
-| purchase_ts                                           | DATE      |
-| ship_ts                                               | DATE      |
-| delivery_ts                                           | DATE      |
-| refund_ts                                             | DATE      |
-+--------------------------------------------+----------------------+
+### Dataset
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
 
 
 # Deep-Dive Insights
