@@ -6,6 +6,7 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 ## Overview of the data
 ### Entity Relationship Diagram (ERD)
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/a609ddf3-c5ce-4b54-9002-5877712276c5">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
 
 ### Dataset
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
@@ -22,7 +23,6 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 
 <img width="750" alt="image" src=image.png>
 
-![image](https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f)
 
 ## Sales Trends
 *Excel + SQL*
