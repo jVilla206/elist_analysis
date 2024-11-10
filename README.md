@@ -6,14 +6,6 @@ I used Excel and a combination of conditional formatting, aggregation functions,
 * An Excel spreadsheet with more in-depth insights can be found here
 * SQL queries used to further analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
 
-## About The Data
-### Entity Relationship Diagram (ERD)
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
-
-### Dataset
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
-
-
 # Deep-Dive Insights
 ### **High-level overview of overall trends**
 From 2019 to 2022, the average annual sales reached 21K orders with a yearly sales of $5.6 million and an average order value of $227. Notably, 2021 had the highest number of sales ($36,000), while 2020 exhibited the highest average order value ($300). Spring and winter months tend to have higher sales, possibly due to holiday gift-buying and promotions, and there was a spike in average sale price in January and February 2020, possibly related to pandemic purchases. Apple Airpods Headphones consistently ranked as the best-selling product, and in 2022, the top three products accounted for 70% of sales, while the Bose Headphones had the lowest number of sales across most years. The team recommends continuing with the loyalty program, as these customers make more purchases on average and purchase more expensive items even with their program discount. 
@@ -50,3 +42,10 @@ Based on these insights, the team would like to make several recommendations acr
 
 # Future Considerations
 Further analysis can be performed in the future by breaking down the geographic and regional trends, and how performance varies across these dimensions with the same metrics from this project.
+
+## About The Data
+### Entity Relationship Diagram (ERD)
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
+
+### Dataset
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
