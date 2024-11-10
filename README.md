@@ -1,7 +1,10 @@
 # Overview of Elist E-Commerce Analysis
 Created in 2018, Elist is an e-commerce company that provides customers with popular electronic products globally. In this project, I analyzed a sample dataset performing a sales trends analysis, investigating sales, average order value, products, and operational effectiveness to provide insights into Elist's performance across different areas of the business. I also analyzed the performance of Elist's loyalty program and provided recommendations based on these insights for where Elist should focus efforts to improve growth.
 
-I used a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams.
+I used Excel and a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams. I also augmented and performed a more thorough analysis with SQL using CTEs, windows functions, inner and left joins, and case-when statements.
+
+* An Excel spreadsheet with more in-depth insights can be found here
+* SQL queries used to further analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
 
 ## Overview of the data
 ### Entity Relationship Diagram (ERD)
@@ -10,8 +13,6 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 ### Dataset
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
 
-* An Excel spreadsheet with more in-depth insights can be found here
-* SQL queries used to further analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
 
 # Deep-Dive Insights
 **Overall trends**
