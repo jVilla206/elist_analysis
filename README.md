@@ -10,6 +10,8 @@ I used a combination of conditional formatting, aggregation functions, Pivot Tab
 ### Dataset
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
 
+* An Excel spreadsheet with more in-depth insights can be found here
+* SQL queries used to analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
 
 # Deep-Dive Insights
 **Overall trends**
