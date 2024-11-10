@@ -15,10 +15,10 @@ I used Excel and a combination of conditional formatting, aggregation functions,
 
 
 # Deep-Dive Insights
-## **Overall trends**
+### **Overall trends**
 From 2019 to 2022, the average annual sales reached 21K orders with a yearly sales of $5.6 million and an average order value of $227. Notably, 2021 had the highest number of sales ($36,000), while 2020 exhibited the highest average order value ($300). Spring and winter months tend to have higher sales, possibly due to holiday gift-buying and promotions, and there was a spike in average sale price in January and February 2020, possibly related to pandemic purchases. Apple Airpods Headphones consistently ranked as the best-selling product, and in 2022, the top three products accounted for 70% of sales, while the Bose Headphones had the lowest number of sales across most years. The team recommends continuing with the loyalty program, as these customers make more purchases on average and purchase more expensive items even with their program discount. 
 
-**Breakdown of Analysis**
+### **Breakdown of Analysis**
 * **Yearly Summary:** From 2019 to 2022, the average number of sales per year was 27k, with an average yearly sale revenue of $7M and an average order value (AOV) of $254. 2021 saw the highest number of sales (36K), but 2020 had on average the most expensive (AOV of $300).
 * **Growth rates:** 2020 had by far the highest growth rate, with more than double the number of sales and the total sales revenue than 2019. On average, 2020 sales were also 31% more expensive than 2019 sales. While 2021 exhibited positive growth in the number of sales, total sales revenue went down, as people purchased items that were on average of 15% less expensive than in 2021.
 * **Seasonality:** Typically winter months (November and December) have a higher number of sales than summer months, likely due to holiday gift buying and seasonal promotions. Usually, the average order value does not have a strong seasonal pattern, though in January and February of 2020, there was a 12-13% rise in average sale price, perhaps related to pandemic purchases. We could break down the total sales by product type to see if a specific product drove this increase.
