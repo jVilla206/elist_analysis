@@ -9,7 +9,6 @@ INNER JOIN elist.customers
 LEFT JOIN elist.geo_lookup
       ON customers.country_code = geo_lookup.country
 WHERE region = 'NA'
---   AND product_name = 'Macbook Air Laptop'
      AND LOWER(product_name) LIKE '%macbook%'
 GROUP BY 1
 ORDER BY 3;
@@ -46,14 +45,15 @@ WHERE orders.purchase_ts BETWEEN '2021-01-01' AND '2021-12-31'
 AND LOWER(orders.product_name) LIKE '%apple%'
 GROUP BY 1
 ORDER BY 1)
+      
 SELECT purchase_month
       ,ROUND(refunds/order_count*100, 2) AS refund_rate
  FROM orders_refund_counts;
 
 -- Are there certain products that are getting refunded more frequently than others? Top 3 most refunded products across all years
-SELECT CASE WHEN product_name = '27in"" 4k gaming monitor' THEN '27in 4k gaming monitor' ELSE product_name END AS product _clean,
-   SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END) as refunds,
-   SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END)/COUNT(DISTINCT orders.id) AS refund_rate
+SELECT CASE WHEN product_name = '27in"" 4k gaming monitor' THEN '27in 4k gaming monitor' ELSE product_name END AS product _clean
+      ,SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END) as refunds
+      ,SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END)/COUNT(DISTINCT orders.id) AS refund_rate
 FROM elist.orders orders
 LEFT JOIN elist.orders_status elist.order_status
     ON orders.id = orders_status.order_id
@@ -61,9 +61,9 @@ GROUP BY 1
 ORDER BY 3 DESC;
 
 -- Order in descending order of refund count to get the top 3 highest refund count
-SELECT CASE WHEN product_name = '27in"" 4k gaming monitor' THEN '27in 4K gaming monitor' ELSE product_name END AS product_clean,
-    SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END) AS refunds,
-    SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END)/COUNT(DISTINCT orders.id) AS refund_rate
+SELECT CASE WHEN product_name = '27in"" 4k gaming monitor' THEN '27in 4K gaming monitor' ELSE product_name END AS product_clean
+      ,SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END) AS refunds
+      ,SUM(CASE WHEN refund_ts IS NOT NULL THEN 1 ELSE 0 END)/COUNT(DISTINCT orders.id) AS refund_rate
 FROM elist.orders orders
 LEFT JOIN elist.order_status order_status
     ON orders.id = order_status.order_id
@@ -94,6 +94,7 @@ FROM elist.customers customers
 LEFT JOIN elist.orders orders
   ON customers.id = orders.customer_id
 ORDER BY 1, 2, 3)
+      
 SELECT AVG(days_to_purchase) AS avg_days_to_purchase
 FROM days_to_purchase_cte;
 
@@ -104,10 +105,10 @@ Rank the channels by total sales, and order the dataset by this ranking to surfa
 
 WITH region_orders as (
   SELECT geo_lookup.region AS region
-      ,customers.marketing_channel AS marketing_channel
-      ,COUNT(DISTINCT orders.id) AS num_orders
-      ,SUM(orders.usd_price) AS total_sales
-      ,AVG(orders.usd_price) AS aov
+        ,customers.marketing_channel AS marketing_channel
+        ,COUNT(DISTINCT orders.id) AS num_orders
+        ,SUM(orders.usd_price) AS total_sales
+        ,AVG(orders.usd_price) AS aov
 FROM elist.orders orders
 LEFT JOIN elist.customers customers
   ON orders.customer_id = customers.id
