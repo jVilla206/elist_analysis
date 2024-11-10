@@ -6,7 +6,7 @@ I used Excel and a combination of conditional formatting, aggregation functions,
 * An Excel spreadsheet with more in-depth insights can be found here
 * SQL queries used to further analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
 
-## About the data
+## About The Data
 ### Entity Relationship Diagram (ERD)
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
 
