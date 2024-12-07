@@ -20,11 +20,11 @@ From 2019 to 2022, the average annual sales reached 21K orders with a yearly sal
 * **Seasonality:** Typically winter months (November and December) have a higher number of sales than summer months, likely due to holiday gift buying and seasonal promotions. Usually, the average order value does not have a strong seasonal pattern, though in January and February of 2020, there was a 12-13% rise in average sale price, perhaps related to pandemic purchases. We could break down the total sales by product type to see if a specific product drove this increase.
 * **Products:** Across all 4 years, Apple Airpod Headphones have been the best-selling product, with an average of 12K orders a year (note: we are using order count, instead of total sales, to determine the best-selling product. This would need to be checked with stakeholders.) In 2022, 70% of sales came from the top 3 products: the Apple headphones, the gaming monitor, and the charging cable pack.
 
+<img width="750" alt="image" src=image.png>
+
 **Effectiveness of the loyalty program**
 * **Findings:** During 2019 and 2020, loyalty program customers made fewer purchases than non-loyalty program customers, and their purchases were less expensive than non-loyalty customers. However, in more recent years (2021-2022), loyalty customers not only made more purchases than non-loyalty customers, but also purchased about $30 more on average in 2022.
 * **Recommendation:** Considering the fact that in recent years, loyalty customers are not only making more purchases but also more expensive purchases than non-loyalty customers, we would recommend continuing with the loyalty program.
-
-<img width="750" alt="image" src=image.png>
 
 # Recommendations
 Based on these insights, the team would like to make several recommendations across several areas:
