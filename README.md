@@ -1,15 +1,19 @@
 # Overview of Elist E-Commerce Analysis
-Created in 2018, Elist is an e-commerce company that provides customers with popular electronic products globally. In this project, I analyzed a sample dataset performing a sales trends analysis, investigating sales, average order value, products, and operational effectiveness to provide insights into Elist's performance across different areas of the business. I also analyzed the performance of Elist's loyalty program and provided recommendations based on these insights for where Elist should focus efforts to improve growth.
+Founded in 2018, Elist is an e-commerce company that provides customers with popular electronics such as Apple, Samsung, and Thinkpad products globally. In this project, I collaborated with the Head of Operations to perform an analysis to surface insights on Elist's performance across different areas of the business to drive improvements in the sales, product, and marketing teams. 
 
-I used Excel and a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams. I also augmented and performed a more thorough analysis with SQL using CTEs, windows functions, inner and left joins, and case-when statements.
+I used Excel and a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams. I augmented and performed a more thorough analysis with SQL using CTEs, windows functions, inner and left joins, and case-when statements. I also built a dashboard in Power BI to visually showcase differences from year to year on the AOV, revenue, and order count.
 
-* An Excel spreadsheet with more in-depth insights can be found here
-* SQL queries used to further analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
+* An Excel spreadsheet with more in-depth insights can be found [here]
+* SQL queries used to clean and analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
+* The Power BI dashboard can be found [here] to view breakdown the key performance indicators (KPIs).
 
-# Deep-Dive Insights
-### **High-level overview of overall trends**
+### Entity Relationship Diagram (ERD)
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
+
+# **Executive Summary**
 From 2019 to 2022, the average annual sales reached 21K orders with a yearly sales of $5.6 million and an average order value of $227. Notably, 2021 had the highest number of sales ($36,000), while 2020 exhibited the highest average order value ($300). Spring and winter months tend to have higher sales, possibly due to holiday gift-buying and promotions, and there was a spike in average sale price in January and February 2020, possibly related to pandemic purchases. Apple Airpods Headphones consistently ranked as the best-selling product, and in 2022, the top three products accounted for 70% of sales, while the Bose Headphones had the lowest number of sales across most years. The team recommends continuing with the loyalty program, as these customers make more purchases on average and purchase more expensive items even with their program discount. 
 
+# Deep-Dive Insights
 ### **Breakdown of Analysis**
 * **Yearly Summary:** From 2019 to 2022, the average number of sales per year was 27k, with an average yearly sale revenue of $7M and an average order value (AOV) of $254. 2021 saw the highest number of sales (36K), but 2020 had on average the most expensive (AOV of $300).
 * **Growth rates:** 2020 had by far the highest growth rate, with more than double the number of sales and the total sales revenue than 2019. On average, 2020 sales were also 31% more expensive than 2019 sales. While 2021 exhibited positive growth in the number of sales, total sales revenue went down, as people purchased items that were on average of 15% less expensive than in 2021.
@@ -42,10 +46,3 @@ Based on these insights, the team would like to make several recommendations acr
 
 # Future Considerations
 Further analysis can be performed in the future by breaking down the geographic and regional trends, and how performance varies across these dimensions with the same metrics from this project.
-
-## About The Data
-### Entity Relationship Diagram (ERD)
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
-
-### Dataset
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/1a6396de-c945-4335-8fce-35665c461bf8">
