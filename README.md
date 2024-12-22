@@ -5,7 +5,7 @@ I used Excel and a combination of conditional formatting, aggregation functions,
 
 * An Excel spreadsheet with more in-depth insights can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_full_table.csv)
 * SQL queries used to clean and analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
-* The Power BI dashboard can be found [here] to view a breakdown of the key performance indicators (KPIs).
+* The Power BI dashboard can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/Elist%20Dashboard.pbix) to view a breakdown of the key performance indicators (KPIs).
 
 ### Entity Relationship Diagram (ERD)
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/95b11f60-e17c-4d72-9e53-8bc788bde96f">
