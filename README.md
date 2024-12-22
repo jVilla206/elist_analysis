@@ -3,7 +3,7 @@ Founded in 2018, Elist is an e-commerce company that provides customers with pop
 
 I used Excel and a combination of conditional formatting, aggregation functions, Pivot Tables, and statistical analysis to clean, analyze, and summarize these insights to deliver to the marketing, finance, operations, and product teams. I augmented and performed a more thorough analysis with SQL using CTEs, windows functions, inner and left joins, and case-when statements. I also built a dashboard in Power BI to visually showcase differences from year to year on the AOV, revenue, and order count.
 
-* An Excel spreadsheet with more in-depth insights can be found [here]
+* An Excel spreadsheet with more in-depth insights can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_full_table.csv)
 * SQL queries used to clean and analyze this dataset can be found [here](https://github.com/jVilla206/elist_analysis/blob/main/elist_analysis.sql)
 * The Power BI dashboard can be found [here] to view a breakdown of the key performance indicators (KPIs).
 
